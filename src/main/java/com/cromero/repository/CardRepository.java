@@ -1,9 +1,9 @@
 package com.cromero.repository;
 
-import org.springframework.data.repository.CrudRepository;
-
 import com.cromero.model.Card;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface CardRepository extends CrudRepository<Card,Long> {
+public interface CardRepository extends JpaRepository<Card,Long> {
+
 
 }
